@@ -17,3 +17,36 @@
     margin-top: 67px;
   }
 }
+@media (max-width: 767px) {
+  .button {
+    &_main {
+      font-size: 14px;
+      width: 260px;
+      margin-right: 10px;
+      margin-top: 60px;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .button {
+    width: 110px;
+    font-size: 10px;
+    &_main {
+      margin-top: 50px;
+      width: 175px;
+      font-size: 11px;
+    }
+  }
+}
+@media (max-width: 501px) {
+  .button {
+    width: 175px;
+    font-size: 13px;
+    margin-top: 5px;
+    &_main {
+      margin-top: 40px;
+      margin-right: 0;
+      width: 190px;
+    }
+  }
+}
