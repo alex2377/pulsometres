@@ -2,13 +2,6 @@
   padding: 57px 0 56px 0;
   min-height: 470px;
   background-color: #f6f6f6;
-  &__header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: #0d0d0d;
-  }
   &__wrapper {
     margin-top: 65px;
     display: flex;
@@ -43,6 +36,14 @@
     }
   }
 }
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #0d0d0d;
+  text-transform: uppercase;
+}
 @media (max-width: 991px) {
   .benefits {
     &__wrapper {
@@ -73,11 +74,11 @@
 }
 @media (max-width: 440px) {
   .benefits {
-    &__header {
-      font-size: 25px;
-    }
     &__wrapper {
       margin-top: 35px;
     }
+  }
+  .title {
+    font-size: 25px;
   }
 }

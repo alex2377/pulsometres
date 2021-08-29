@@ -16,6 +16,11 @@
     font-size: 16px;
     margin-top: 67px;
   }
+  &_submit {
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 767px) {
   .button {
@@ -29,8 +34,10 @@
 }
 @media (max-width: 575px) {
   .button {
-    width: 110px;
-    font-size: 10px;
+    &_headerBtn {
+      width: 110px;
+      font-size: 10px;
+    }
     &_main {
       margin-top: 50px;
       width: 175px;
@@ -40,9 +47,11 @@
 }
 @media (max-width: 501px) {
   .button {
-    width: 175px;
-    font-size: 13px;
-    margin-top: 5px;
+    &_headerBtn {
+      width: 175px;
+      font-size: 13px;
+      margin-top: 5px;
+    }
     &_main {
       margin-top: 40px;
       margin-right: 0;
